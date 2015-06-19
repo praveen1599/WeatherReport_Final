@@ -81,7 +81,7 @@
 -(void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
     
     if (status == kCLAuthorizationStatusDenied) {
-        NSLog(@"ahjksdgaesghflkjbfpv8eytho");
+        NSLog(@"Entered into location Function");
         // permission denied
     }
     else{
